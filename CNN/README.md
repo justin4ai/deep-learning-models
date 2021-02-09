@@ -1,4 +1,4 @@
-English Resources
+&lt;English Resources&gt;
 <ul>
   <li><a href = "https://www.youtube.com/watch?v=YRhxdVk_sIs " > CNN Basic </a></li>
   <li><a href = "https://www.youtube.com/watch?v=n2MxgXtSMBw" > CNN (python example) </a></li>
