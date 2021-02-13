@@ -1,3 +1,5 @@
+[Difference between types of CNNS?](https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96#_=_)
+
 &lt;English Resources&gt;
 <ul>
   <li><a href = "https://www.youtube.com/watch?v=YRhxdVk_sIs " > CNN Basic </a></li>
