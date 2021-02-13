@@ -1,4 +1,5 @@
 [Difference between types of CNNS?](https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96#_=_)
+[Parameters of Conv2D](https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/)
 
 &lt;English Resources&gt;
 <ul>
