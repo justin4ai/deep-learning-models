@@ -13,6 +13,12 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 <img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img>
 <p>
 
+Input shape : 227 x 227 x 3 (227 by 227 color image)
+```python
+INPUT_SHAPE = (227, 227, 3)
+model = Sequential()
+```
+
 ```python
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
