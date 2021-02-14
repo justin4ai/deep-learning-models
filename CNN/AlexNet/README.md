@@ -18,7 +18,7 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 INPUT_SHAPE = (227, 227, 3)
 model = Sequential()
 ```
-
+<strong>&lt;1st Convolutional Layer&gt;</strong>
 ```python
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
