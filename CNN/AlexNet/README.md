@@ -12,7 +12,8 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 <img src="https://miro.medium.com/max/700/1*bD_DMBtKwveuzIkQTwjKQQ.png"> </img>
 <img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img><br>
 Pad (0, 1, 2) means how many pixels you gonna pad on four directions (up/down/left/right)
-<p>
+</p>
+        
 <br>
 <h2>Codes</h2>
 <strong>Input shape : 227 x 227 x 3</strong> (227 by 227 color image)
