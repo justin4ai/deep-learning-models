@@ -17,6 +17,38 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
 ```
+
+```python
+model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
+```
+
+```python
+model.add( Conv2D(filters=256, kernel_size=(5,5), strides=(1,1), padding='same') )
+model.add( Activation('relu') )
+```
+
+```python
+model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
+```
+
+```python
+model.add( Conv2D(filters=384, kernel_size=(3,3), strides=(1,1), padding='same') )
+model.add( Activation('relu') )
+```
+
+```python
+model.add( Conv2D(filters=384, kernel_size=(3,3), strides=(1,1), padding='same') )
+model.add( Activation('relu') )
+```
+
+```python
+model.add( Conv2D(filters=256, kernel_size=(3,3), strides=(1,1), padding='same') )
+model.add( Activation('relu') )
+```
+
+```python
+model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
+```
 <img src="https://i.stack.imgur.com/dtybe.png" style="width:50px;height:60px;"></img>
 
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
