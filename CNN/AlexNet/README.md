@@ -23,30 +23,30 @@ model = Sequential()
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
 ```
-
+<strong>&lt;Max Pooling&gt;</strong>
 ```python
 model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
 ```
-
+<strong>&lt;2nd Convolutional Layer&gt;</strong>
 ```python
 model.add( Conv2D(filters=256, kernel_size=(5,5), strides=(1,1), padding='same') )
 model.add( Activation('relu') )
 ```
-
+<strong>&lt;Max Pooling&gt;</strong>
 ```python
 model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
 ```
-
+<strong>&lt;3rd Convolutional Layer&gt;</strong>
 ```python
 model.add( Conv2D(filters=384, kernel_size=(3,3), strides=(1,1), padding='same') )
 model.add( Activation('relu') )
 ```
-
+<strong>&lt;4th Convolutional Layer&gt;</strong>
 ```python
 model.add( Conv2D(filters=384, kernel_size=(3,3), strides=(1,1), padding='same') )
 model.add( Activation('relu') )
 ```
-
+<strong>&lt;5th Convolutional Layer&gt;</strong>
 ```python
 model.add( Conv2D(filters=256, kernel_size=(3,3), strides=(1,1), padding='same') )
 model.add( Activation('relu') )
