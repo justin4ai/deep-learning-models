@@ -13,7 +13,7 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 <img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img>
 <p>
 
-Input shape : 227 x 227 x 3 (227 by 227 color image)
+<strong>Input shape : 227 x 227 x 3</strong> (227 by 227 color image)
 ```python
 INPUT_SHAPE = (227, 227, 3)
 model = Sequential()
