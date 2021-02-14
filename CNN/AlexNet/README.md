@@ -56,6 +56,30 @@ model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
 <img src="https://i.stack.imgur.com/dtybe.png" style="width:50px;height:60px;"></img>
 
 
+<strong>&lt;Flatten&gt;</strong><br>
+```python
+model.add( Flatten() )
+K = INPUT_SHAPE[0] * INPUT_SHAPE[1] * INPUT_SHAPE[2]
+```
+
+<strong>&lt;1st Fully Connected (Dense) Layer&gt;</strong><br>
+```python
+model.add( Dense(4096, input_shape=( K, )) )
+model.add( Activation('relu') )
+model.add( Dropout(0.4) )
+```
+
+<strong>&lt;2nd Fully Connected (Dense) Layer&gt;</strong><br>
+```python
+model.add( Dense(4096) )
+model.add( Activation('relu') )
+model.add( Dropout(0.4) )
+```
+<strong>&lt;3rd Fully Connected (Dense & Output) Layer&gt;</strong><br>
+```python
+model.add( Dense(2) )
+model.add( Activation('softmax') )
+```
 
 
 &lt;English Resources&gt;<br>
