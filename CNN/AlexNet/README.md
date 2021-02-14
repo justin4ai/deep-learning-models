@@ -12,4 +12,4 @@ model.add( Activation('relu') )
 ```
 https://i.stack.imgur.com/dtybe.png
 
-https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
+<img src="https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D"> </img>
