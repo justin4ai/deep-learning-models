@@ -110,5 +110,6 @@ model.add( MaxPooling2D(pool_size=(2,2), strides=(2,2)) )
 
 &lt;English Resources&gt;<br>
 <ul>
+        <li><a href="https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c">Code Reference</a></li>
         <li><a href="https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96#_=_">Definition</a></li>
 </ul>
