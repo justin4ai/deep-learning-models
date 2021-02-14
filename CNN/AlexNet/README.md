@@ -10,7 +10,7 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 <h2>Architecture</h2>
 <p align=center>
 <img src="https://miro.medium.com/max/700/1*bD_DMBtKwveuzIkQTwjKQQ.png"> </img>
-<img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img>
+<img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img><br>
 Pad (0, 1, 2) means how many pixels you gonna pad on four directions (up/down/left/right)
 <p>
 
