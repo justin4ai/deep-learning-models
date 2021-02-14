@@ -17,7 +17,7 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
 ```
-<img src="https://i.stack.imgur.com/dtybe.png"></img>
+<img src="https://i.stack.imgur.com/dtybe.png" style="width:50px;height:60px;"></img>
 
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
 
