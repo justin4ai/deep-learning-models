@@ -1,6 +1,13 @@
+<h1>AlexNet</h1>
+<h3>Why?</h3>
+AlexNet was born out of the need to improve the results of the ImageNet challenge. This was one of the first Deep convolutional networks to achieve considerable accuracy on the 2012 ImageNet LSVRC-2012 challenge with an accuracy of 84.7% as compared to the second-best with an accuracy of 73.8%. The idea of spatial correlation in an image frame was explored using convolutional layers and receptive fields.
+<br><br>
 
+<h3>What?</h3>
+The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC) layers. The activation used is the Rectified Linear Unit (ReLU). The structural details of each layer in the network can be found in the table below.
+<br><br>
 
-
+<h2>Architecture</h2>
 <p align=center>
 <img src="https://miro.medium.com/max/700/1*bD_DMBtKwveuzIkQTwjKQQ.png"> </img>
 <img src="https://miro.medium.com/max/700/1*vXBvV_Unz3JAxytc5iSeoQ.png"> </img>
@@ -13,3 +20,9 @@ model.add( Activation('relu') )
 <img src="https://i.stack.imgur.com/dtybe.png"></img>
 
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
+
+
+&lt;English Resources&gt;<br>
+<ul>
+        <li><a href="https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96#_=_">Definition</a></li>
+</ul>
