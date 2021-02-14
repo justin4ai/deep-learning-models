@@ -18,7 +18,8 @@ The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC)
 INPUT_SHAPE = (227, 227, 3)
 model = Sequential()
 ```
-<strong>&lt;1st Convolutional Layer & Max Pooling&gt;</strong>
+<strong>&lt;1st Convolutional Layer & Max Pooling&gt;</strong><br>
+[kernel_size, strides, padding?](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D)
 ```python
 model.add( Conv2D(filters=96, input_shape=(INPUT_SHAPE), kernel_size=(11,11), strides=(4,4), padding='valid') )
 model.add( Activation('relu') )
@@ -51,7 +52,7 @@ model.add( MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='valid') )
 
 <img src="https://i.stack.imgur.com/dtybe.png" style="width:50px;height:60px;"></img>
 
-https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
+
 
 
 &lt;English Resources&gt;<br>
