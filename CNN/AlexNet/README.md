@@ -4,7 +4,7 @@ AlexNet was born out of the need to improve the results of the ImageNet challeng
 <br><br>
 
 <h3>What?</h3>
-The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC) layers. The activation used is the Rectified Linear Unit (ReLU). The structural details of each layer in the network can be found in the table below.
+The network consists of 5 Convolutional (CONV) layers and 3 Fully Connected (FC) layers. The activation used is the Rectified Linear Unit (ReLU). The structural details of each layer in the network can be found in the table below. 
 <br><br>
 
 <h2>Architecture</h2>
