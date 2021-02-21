@@ -1,5 +1,5 @@
-**Dependencies**
-![asdf](https://img.shields.io/badge/python-3.7-brightgreen) ![ads](https://img.shields.io/badge/tensorflow-1.14-orange) ![dasf](https://img.shields.io/badge/opencv-4.5.1-blue)
+**Dependencies**   
+![asdf](https://img.shields.io/badge/python-3.7-brightgreen) ![ads](https://img.shields.io/badge/tensorflow-1.14-orange)
 
 # DL_Recap
 This is for recap on deep learning methods I've learned by myself focusing on theoretical contents.
