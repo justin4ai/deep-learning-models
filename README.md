@@ -4,7 +4,7 @@
 # DL_Recap
 This is for recap on deep learning methods I've learned by myself focusing on theoretical contents.
 <br>
-
+ 
 &lt;English Resources&gt; 
 <ul>
   <li><a href = "https://www.youtube.com/watch?v=lor2LnEVn8M" > Dense Layer </a></li>
