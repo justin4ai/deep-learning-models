@@ -85,4 +85,5 @@ model.add( Activation('softmax') )
 &lt;English Resources&gt;<br>
 <ul>
         <li><a href="https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96#_=_">Definition</a></li>
+        <li><a href="https://towardsdatascience.com/alexnet-8b05c5eb88d4#:~:text=A%20momentum%20of%200.9%20has,batches%20lead%20to%20better%20models.">Well-described parameters</a></li>
 </ul>
