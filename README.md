@@ -1,7 +1,7 @@
 **Dependencies**   
 ![asdf](https://img.shields.io/badge/python-3.7-brightgreen) ![ads](https://img.shields.io/badge/tensorflow-1.14-orange)
 
-# DL_Recap
+# deep-learning-models
 This is for my fast recap on deep learning methods I've learned by myself focusing on theoretical contents.
 <br>
  
